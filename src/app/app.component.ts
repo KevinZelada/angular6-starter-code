@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  public journals = [];
+  public newBlog = {
+    title: '',
+    content: ''
+  };
+
+  // add a function to add to blogs
 }

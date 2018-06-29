@@ -1,0 +1,8 @@
+#no-padding{
+    padding: 0;
+}
+.video-container{
+    height: 550px;
+    width:100%;
+    overflow: hidden;
+}
